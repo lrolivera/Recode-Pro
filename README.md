@@ -25,3 +25,8 @@ Os OBJETIVOS ESPECÍFICOS do Recode Pro são:
    
    <h4> <a href="https://www.recodepro.org.br/"> Recode Pro </a>
 </h4>
+
+
+### Projeto Lar versátil eletro
+ <h4> <a href="https://github.com/lrolivera/Projeto-Lar-versatil"> Trabalho individual </a>
+</h4>
