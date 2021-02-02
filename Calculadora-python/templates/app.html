@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+
+
+    <!-- style -->
+
+    <style>
+      
+       .container-h3{
+        text-align: center;
+      }
+       img {
+        width: 260px;
+        height: 280px;
+    }
+        body{
+            border-style: solid;
+            background-color: pink;
+        }
+        .alert {
+       
+            background-color:gray;
+            padding: 1rem;
+            border-radius: 5px;
+            color: white;
+            margin: 1rem;
+        }
+    </style>
+
+    <!-- Fim style -->
+
+
+
+  </head>
+  <body>
+    <div class="container-h3">
+      <br><br>
+      <h3>Calculadora</h3>
+    </div>
+
+   
+    <div class="container">
+      <form action="/send" method="POST">
+          <label for="Number One">Número 1</label>
+          <input
+            type="text"
+            placeholder="Colocar o primeiro número"
+            class="u-full-width"
+            name="num1"
+          />
+
+          <label for="Number Two">Número 2</label>
+          <input
+            type="text"
+            placeholder="Colocar o segundo número"
+            class="u-full-width"
+            name="num2"
+          />  
+
+        <label for="Operation">Operação</label>
+        <select class="u-full-width" name="operation">
+          <option value="soma">Somar</option>
+          <option value="sub">Subtrair</option>
+          <option value="mult">Multiplicar</option>
+          <option value="div">Dividir</option>
+        </select>
+
+        <input type="submit" value="Calcular" id="calc_btn" />
+        <br />
+        <div class="alert">
+            <p>Resultado</p>
+            {{ sum }}
+        </div>
+      </form>
+    </div> 
+    <section>
+      <img src="../static/livros.jpeg" alt="">
+     </section>
+  </body>
+</html>
