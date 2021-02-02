@@ -26,8 +26,9 @@ Os OBJETIVOS ESPECÍFICOS do Recode Pro são:
    <h4> <a href="https://www.recodepro.org.br/"> Recode Pro </a>
 </h4>
 
-## Tecnologias usada no Projeto
+## Tecnologias usada nesse repositório
 
+![experimental](https://img.shields.io/static/v1?label=&message=HTML&color=orange)
 ![experimental](https://img.shields.io/static/v1?label=&message=Python&color=yellow)
 
 
