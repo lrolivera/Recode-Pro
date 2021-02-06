@@ -29,7 +29,8 @@ Os OBJETIVOS ESPECÍFICOS do Recode Pro são:
 ## Tecnologias usada nesse repositório
 
 ![experimental](https://img.shields.io/static/v1?label=&message=HTML&color=orange)
-![experimental](https://img.shields.io/static/v1?label=&message=Python&color=yellow)
+![experimental](https://img.shields.io/static/v1?label=&message=JavaScript&color=yellow)
+![experimental](https://img.shields.io/static/v1?label=&message=Python&color=blue)
 
 
 
